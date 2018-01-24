@@ -62,6 +62,8 @@ public class Indexer {
         Function emitFunc = (Function) indexResults.getPrototype().get("emit", indexResults);
         emitFunc = new BoundFunction(cx, scope, emitFunc, indexResults, NO_ARGS);
         scope.put("emit", scope, emitFunc);
+
+        scope.put("dateToArray", scope, new DateToArrayFunction());
     }
 
     /**
