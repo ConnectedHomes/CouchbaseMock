@@ -1,3 +1,8 @@
+Used by the [Boiler IQ team](https://confluence.bgchtest.info/display/C) for a custom build of CouchbaseMock that includes the built-in function `dateToArray` which is otherwise missing.
+
+
+
+
 # CouchbaseMock - The Couchbase Test Server
 
 CouchbaseMock is a test server implementing some of the memcached protocol
